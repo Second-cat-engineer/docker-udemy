@@ -28,7 +28,7 @@ const startServer = () => {
         const testPost = new Post({name: "TestPost"});
         testPost.save(function (err, saveTestPost) {
             if (err) return console.error(err);
-            console.log('savedTestPost', saveTestPost)
+            console.log('savedTestPost with volumes', saveTestPost)
 
         })
     });
